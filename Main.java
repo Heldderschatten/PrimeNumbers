@@ -4,7 +4,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        int[] lists = new int[20]; 
+        int numberOfPrimeNumbers = 10;
+        int[] lists = new int[numberOfPrimeNumbers]; 
         lists[0] = 2;
         boolean isPrime = true;
         int x = 1;
